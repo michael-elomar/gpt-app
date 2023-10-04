@@ -2,7 +2,7 @@ import React from "react";
 
 const Feature = () => (
     <div>
-        <h1>GPT4</h1>
+        <h1>Feature</h1>
     </div>
 );
 

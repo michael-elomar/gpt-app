@@ -2,7 +2,7 @@ import React from "react";
 
 const Brand = () => (
     <div>
-        <h1>GPT4</h1>
+        <h1>Brand</h1>
     </div>
 );
 
