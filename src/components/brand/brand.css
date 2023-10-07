@@ -7,12 +7,24 @@
     margin-right: 0rem;
 }
 
+.gpt3__brand img {
+    max-width: 110px;
+    max-width: 90px;
+}
+
 
 @media screen and (max-width: 490px) {
     .gpt3__brand img {
-        width: 20%;
-        height: 20%;
+        width: 18%;
+        height: 18%;
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gpt3__brand img {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
