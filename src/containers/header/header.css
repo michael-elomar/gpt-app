@@ -16,7 +16,6 @@
     position: relative;
     margin-left: 2rem;
 
-
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 800;
@@ -205,7 +204,6 @@
     .gpt3__header-input button {
         min-height: 48px;
     }
-
 
     .gpt3__header-input input {
         min-width: 20rem;
