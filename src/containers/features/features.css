@@ -1,0 +1,49 @@
+.gpt3__features-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__features-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__features-container-heading {
+    max-width: 420px
+}
+
+.gpt3__features-container-heading h1 {
+    height: 180px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.gpt3__features-container-text {
+    margin-top: 2rem;
+}
+
+.gpt3__features-container-text p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 138, 113, 1);
+}
+
+.gpt3__features-container-features {
+    margin-left: 2rem;
+}
+
+/* customize the style of the feature component in the context of its current parent component */
+.gpt3__features-container-features .gpt3__feature {
+    flex: 1;
+    margin: 1.5rem 1rem;
+    min-width: 210px;
+    display: row;
+    flex-direction: unset;
+}
