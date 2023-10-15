@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA, Article, Brand, NavBar, Feature } from "./components";
+import { CTA, Brand, NavBar } from "./components";
 import { Footer, Header, Features, Blog, WhatGPT3, Possibility } from "./containers";
 import "./App.css"
 
@@ -13,9 +13,9 @@ const App = () => (
             <Features />
             <Possibility />
             <CTA />
+            <Blog />
+            <Footer />
         </div>
-        <Blog />
-        <Footer />
     </div>
 );
 
